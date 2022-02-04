@@ -1,4 +1,10 @@
 ## load the 2006 GSS ##
+library(ggplot2)
+library(doBy)
+library(plyr)
+library(gmodels)
+
+
 
 gss = read.csv(file.choose())
 
